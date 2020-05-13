@@ -1,0 +1,75 @@
+/* ---Main CSS--- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2F96D6;
+}
+
+h1 {
+    text-align: center;
+    padding-top:25px;
+    font-family: 'Unlock', cursive;
+}
+
+h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    margin: 15px auto;
+    color: #0F421B;
+}
+
+ul {
+    max-width: 35vw;
+    margin-left: 35vw;
+    list-style-type: none;
+}
+
+li {
+    font-family: 'Anton', sans-serif;
+    margin-top: 10px;
+}
+
+span {
+    color: #D3DE7B; 
+    font-weight: bold;
+    font-family: 'Lobster', cursive;   
+}
+
+
+/* ---IMAGES CSS--- */
+
+img#image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40%;
+    max-height: 600px;
+}
+
+#img-caption {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    margin: 15px auto;
+    text-decoration: underline;
+    color: #D3DE7B; 
+}
+
+
+/* ---OTHER TEXTS CSS--- */
+
+.subtitle {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    margin: 15px auto;
+    color: #D3DE7B;
+}
+
+.wikipedia {
+    text-align: center;
+}
