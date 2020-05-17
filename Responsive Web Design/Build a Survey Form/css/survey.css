@@ -1,0 +1,90 @@
+/* ---Main CSS--- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eae3db;
+}
+
+label {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 22px;
+    color: #e53e26;
+    margin: 10px auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    fon-weight: bold;
+    padding: 30px auto;
+    color: #224a49;
+}
+
+h1:hover {
+    color: #ff5e14;
+}
+
+
+/* ---OTHER CSS--- */
+
+#survey-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 60vw;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #6dafa7;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#description {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    color: #e53e26;
+    margin: 10px auto;
+}
+
+#dropdown, #comments {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; 
+}
+
+button#submit {
+    margin: 20px auto;
+    padding: 5px 60px;
+    background-color: #dfc89f;
+    color: #49423c;
+    font-weight: bold; 
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    border: #dfc89f;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 2px 2px #49423c;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.color {
+    color: #dfc89f;
+    text-shadow: 2px 2px #49423c;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+}

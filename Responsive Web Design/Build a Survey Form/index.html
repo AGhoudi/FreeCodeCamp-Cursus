@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Survey Form FCC</title>
+        <link rel="stylesheet" href="css/survey.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    </head>
+
+    <body>
+        <section id="main">
+
+            <h1 id="title">Survey Form</h1>
+            <p id="description">Let us know what kind of developer you are</p>
+
+            <form id="survey-form">
+                <label id="name-label" for="name">* Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label id="email-label" for="email">* Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+
+                <label id="number-label" for="age">* Age:</label>
+                <input type="number"  min="10" max="100" id="number" name="age" placeholder="Enter your Age" required>
+
+                <label for="dropdown">What kind of developer are you?</label>
+                <select id="dropdown" name="dropdown">
+                    <option value="frontend">Frontend developer</option>
+                    <option value="backend">Backend developer</option>
+                    <option value="fullstack">Fullstack developer</option>
+                    <option value="designer">Web Designer</option>
+                    <option value="devops">Devops</option>
+                </select>
+
+                <label for="language">What is your favorite language?</label>
+                <span class="centered color">Javascript</span>
+                <input type="radio" class="centered" name="language" value="javascript">
+                <span class="centered color">PHP</span> 
+                <input type="radio" class="centered" name="language" value="php">
+                <span class="centered color">Java</span> 
+                <input type="radio" class="centered" name="language" value="java">
+                <span class="centered color">C++</span> 
+                <input type="radio" class="centered" name="language" value="c++"> 
+
+                <label>Talk us about your recent projects(Check all that apply):</label>
+                <span class="centered color">Front-end Projects</span>
+                <input type="checkbox" class="centered" name="choice1" value="Frontend">
+                <span class="centered color">Back-end Projects</span> 
+                <input type="checkbox" class="centered" name="choice2" value="Backend">
+                <span class="centered color">Open Source Projects</span> 
+                <input type="checkbox" class="centered" name="choice3" value="Opensource">
+                <span class="centered color">Data Visualization</span> 
+                <input type="checkbox" class="centered" name="choice4" value="Data Visualization">
+                <span class="centered color">Personal Projects</span> 
+                <input type="checkbox" class="centered" name="choice5" value="Personal">
+                <span class="centered color">Blog Projects</span> 
+                <input type="checkbox" class="centered" name="choice6" value="Blog"> 
+
+                <label for="comments">Any Comments or Suggestions?</label>
+                <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
+
+                <button type="submit" id="submit" name="submit">Submit</button>
+            </form>
+
+        </section>
+
+        <!--Scripts-->
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        
+    </body>
+
+</html>
